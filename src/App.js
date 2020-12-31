@@ -3,6 +3,7 @@ import {Header} from './component/Header';
 import {Balance} from './component/Balance';
 import {IncomeExpenses} from './component/IncomeExpenses';
 import {TransactionList} from './component/TransactionList';
+import {AddTransaction} from './component/AddTransaction';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Balance />
         <IncomeExpenses />
         <TransactionList />
+        <AddTransaction />
       </div>
     </div>
   );
